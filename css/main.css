@@ -1,0 +1,166 @@
+/***** BASE STYLES *****/
+
+body {
+    color: black;
+    font-family: 'montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+      margin: 0 auto;
+      overflow: auto;
+      width: 1200px;
+}
+
+.half-width {
+      float: left;
+      width: 600px;
+}
+
+.third-width {
+      float: left;
+      width: 399px;
+}
+
+.third-width-center {
+      float: left;
+      width: 399px;
+}
+
+.third-width-left {
+      float: left;
+      width: 399px;
+}
+
+/***** HEADER *****/
+
+header h1 {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 23px;
+      text-transform: uppercase;
+      padding: 20px 0px;
+}
+
+header span {
+      color: #77a466;
+}
+
+nav {
+      float: right;
+      padding: 25px 10px;
+}
+
+nav ul li {
+      color: #77a466;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 23px;
+      text-transform: uppercase;
+      padding-left: 20px;
+}
+
+
+
+/***** IMAGE *****/
+
+#image img {
+      border-width: 3px 0px;
+      border-style: solid;
+      border-color: #77a466;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+      padding: 15px 0px;
+}
+
+#about h2 {
+      color: #77a466;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 23px;
+      padding-left: 2px;
+      text-transform: uppercase;
+}
+
+#about p {
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 25px;
+      padding-left: 2px;
+      padding-right: 25px;
+}
+
+/***** SPOTLIGHT *****/
+
+#spotlight .full-width {
+      border-width: 1px 0px;
+      border-style: solid;
+      border-color: #dedbdc;
+}
+
+#spotlight .third-width-center {
+      border-width: 0px 1px 0px 1px;
+      border-style: solid;
+      border-color: #dedbdc;
+      font-size: 16px;
+      line-height: 21px;
+}
+
+#spotlight .third-width-left h3 {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 25px;
+        padding-left: 2px;
+        text-transform: uppercase;
+}
+
+#spotlight h3 {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 25px;
+        padding: 0px 30px;
+        text-transform: uppercase;
+}
+
+#spotlight p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0px 30px;
+}
+
+#spotlight ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+}
+
+#spotlight li {
+        color: #77a466;
+        font-size: 16px;
+        line-height: 36px;
+}
+
+/***** SLOGAN *****/
+
+#slogan .full-width {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 23px;
+        padding: 10px;
+        text-align: center;
+        text-transform: uppercase;
+}
+
+#slogan span {
+        color: #77a466;
+        font-family: 'Galada', cursive;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 23px;
+        text-transform: lowercase;
+}
